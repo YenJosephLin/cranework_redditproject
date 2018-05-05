@@ -1,0 +1,144 @@
+/* DivTable.com */
+
+.divTable {
+  display: table;
+  width: 1920px;
+  height: 1080px;
+  border: 0;
+  background-color: #f4f4f4;
+}
+
+.divTableRow {
+  display: table-row-group;
+}
+
+.divTableCell {
+  display: table-cell;
+  /* border: 1px solid #999999; */
+}
+
+.divTableHead {
+  display: table-row;
+}
+
+.divTableHeadCell {
+  height: 75px;
+}
+
+.divTableBody {
+  text-align: center;
+  display: table-row;
+}
+
+.divTableBodyCell {
+  height: 765px;
+}
+
+.divTableMainElement {
+  width: 1360px;
+  height: 765px;
+}
+
+.divTableMainElementMedia {
+  width: 1360px;
+  height: 700px;
+}
+
+.divTableMainElementText {
+  display: table-row;
+  width: 1360px;
+  height: 65px;
+}
+
+.divTableSide {
+  text-align: center;
+  vertical-align: middle;
+  width: 280px;
+  height: 765px;
+}
+
+.divTableFoot {
+  text-align: center;
+  display: table-row;
+}
+
+.divTableFootCell {
+  height: 240px;
+}
+
+.divTableFootSpace {
+  width: 10px;
+  height: 8px;
+}
+
+.divTableFoot0 {
+  vertical-align: bottom;
+  width: 400px;
+  height: 225px;
+  background-color: #333333;
+}
+
+.divTableFoot1 {
+  vertical-align: bottom;
+  width: 320px;
+  height: 180px;
+}
+
+.divTableFoot2 {
+  vertical-align: bottom;
+  width: 240px;
+  height: 135px;
+}
+
+.divTableFoot3 {
+  vertical-align: bottom;
+    width: 170px;
+    height: 135px;
+}
+
+.author {
+  font-size: 20px;
+}
+
+.grad {
+  height: 240px;
+  background: #212b4b;
+  /* For browsers that do not support gradients */
+  background: linear-gradient(to right, #212b4b, #35cde0, #212b4b);
+}
+
+.mainMediaSize {
+  max-height: 700px;
+  max-width: 1360px;
+  height: 100%;
+  width: auto;
+}
+
+.p1MediaSize {
+  max-height: 180px;
+  max-width: 320px;
+  height: 100%;
+  width: auto;
+}
+
+.p2MediaSize {
+  max-height: 135px;
+  max-width: 240px;
+  height: 100%;
+  width: auto;
+}
+
+.p3MediaSize {
+  max-height: 135px;
+  max-width: 170px;
+  height: 100%;
+  width: auto;
+}
+
+img {
+  max-height: 100%;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
